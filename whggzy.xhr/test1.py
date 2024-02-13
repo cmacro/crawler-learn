@@ -15,3 +15,6 @@ url = 'http://www.whggzy.com/portal/category'
 response = requests.post(url, headers=handler, data=data)
 print(response.text)
 print(response.status_code)
+
+with open('resultdata.json', 'w', encoding='utf-8') as f:
+    f.write(response.text)
