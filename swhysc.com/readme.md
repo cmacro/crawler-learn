@@ -84,3 +84,12 @@ const decodedText = CryptoJS.enc.Utf8.stringify(o).toString()
 
 console.log(decodedText);
 ```
+
+
+## 其他：关键字类搜索
+
+如下面的网站：返回结果会包裹一些特定字符串的情况
+
+https://www.qimingpian.com/finosda/project/pinvestment
+
+![alt text](image-4.png)
