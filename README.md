@@ -4,8 +4,8 @@
 level | name | note  
 :--:|----|---  
 1 | XHR debug | [乌海市公共资源交易中心/政策法规 whggzy.xhr](whggzy.xhr/readme.md) 
-2 | AES decrypy | [万宏源证券 swhysc.com](swhysc.com/readme.md)   
-
+2 | 标准加密 AES decrypy | [万宏源证券 swhysc.com](swhysc.com/readme.md)   
+2 | 非标加密 decrypy 扣取解密代码 | [企名片 关键字类搜索 qimingpian.com](qimingpian.com/readme.md)
 
 ## Q&A
 
