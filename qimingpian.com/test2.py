@@ -48,9 +48,10 @@ encrypt_data=response.json()['encrypt_data']
 # context = execjs.compile(js_code)
 # result = context.call("s", encrypt_data)
 
-ctx = py_mini_racer.MiniRacer()
 with open('./qimingpian.com/test2.js', 'r', encoding='utf-8') as file:
     js_code = file.read()
+    
+ctx = py_mini_racer.MiniRacer()
 ctx.eval(js_code)
 result = ctx.call('s', encrypt_data)
 

@@ -1,5 +1,6 @@
 # 完整代码扣取
 
+非标加密 返回内部json数据关键字比较特殊，直接使用查找定位。
 
 站点：qimingpian.com
 
@@ -8,6 +9,16 @@
 2. 整理出js解密函数入口 
 3. 使用python脚本请求并调用js解密 
 4. OK
+
+
+返回的结果类似下面的情况，`encrypt_data` 词比较特殊，可以通过这个词进行搜索。 
+```js
+{
+    "status": 0,
+    "message": "success",
+    "encrypt_data": "bOnqtWHqs4vudLnK0KY4XY1THnLjDMjnSqu0。。。。"
+}
+```
 
 
 下面是解密入口位置
