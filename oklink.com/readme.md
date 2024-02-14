@@ -10,8 +10,9 @@
 
 这种方式只是查找和解密有些不同，定位到代码后，扣取代码都是一致的。
 
-
 ![DKLINK](image.png) 
+
+> **注：** js代码中有NodeJs的btoa函数， py_mini_racer不支持，需要改用 PyExecJS 库 
 
 ## 找到API  
 
