@@ -338,3 +338,37 @@ if __name__ == '__main__':
     recvproc.join()
     print('main process is finished')
 ```
+
+## 其他 redis 安装问题
+
+redis 需要使用虚拟环境模式
+
+```sh
+# 启动redis
+docker run -d --name my-redis -p 6379:6379 redis
+```
+
+```sh
+# 安装虚拟环境
+sudo apt-get install python3-virtualenv
+# 创建虚拟环境
+python3 -m virtualenv venv
+# 激活venv环境
+source venv/bin/activate
+# 安装redis
+pip install redis
+```
+
+redis获取的值是Unicode，需要进行解码
+
+```py
+# 假设 data 是你的字节字符串字典
+data = {
+    b'\xe5\xa7\x93\xe5\x90\x8d': b'\xe5\xbc\xa0\xe4\xb8\x89', 
+    b'\xe4\xbd\x8f\xe5\x9d\x80': b'\xe5\x8c\x97\xe4\xba\xac', 
+    b'\xe7\x88\xb1\xe5\xa5\xbd': b'\xe8\xb6\xb3\xe7\x90\x83'}
+# 转换为可读信息
+decoded_data = {key.decode('utf-8'): value.decode('utf-8') for key, value in data.items()}
+# 输出转换后的用户信息
+print("插入数据后的用户信息:", decoded_data)
+```

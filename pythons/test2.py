@@ -1,32 +1,9 @@
-import multiprocessing
-import time
-import random
-
-# child processs function
-def sender(queue, msg):
-    # sleep 2~5 seconds, simulate task execution
-    time.sleep(random.randint(2,5))
-    print(f'sending message {msg}')
-    queue.put(msg)
-
-def receiver(queue):
-    msg = ''
-    while msg != 'closed':
-        msg = queue.get()
-        print(f'received message: {msg}')
-    print('receiver is finished') 
-
-if __name__ == '__main__':
-    msgqueue = multiprocessing.Queue()
-    # create new child process, 
-    sendproc = multiprocessing.Process(target=sender, args=(msgqueue, 'hello'))
-    recvproc = multiprocessing.Process(target=receiver, args=(msgqueue,))
-    sendproc.start()
-    recvproc.start()
-
-    # wait process finsihed
-    sendproc.join()
-    msgqueue.put('closed')
-    recvproc.join()
-    print('main process is finished')
-    
+# 假设 data 是你的字节字符串字典
+data = {
+    b'\xe5\xa7\x93\xe5\x90\x8d': b'\xe5\xbc\xa0\xe4\xb8\x89', 
+    b'\xe4\xbd\x8f\xe5\x9d\x80': b'\xe5\x8c\x97\xe4\xba\xac', 
+    b'\xe7\x88\xb1\xe5\xa5\xbd': b'\xe8\xb6\xb3\xe7\x90\x83'}
+# 转换为有效字符串
+decoded_data = {key.decode('utf-8'): value.decode('utf-8') for key, value in data.items()}
+# 输出转换后的用户信息
+print("插入数据后的用户信息:", decoded_data)
