@@ -8,7 +8,16 @@ level | name | note
 2 | 非标加密 返回内部json数据关键字比较特殊，直接使用查找定位 | [企名片 qimingpian.com](qimingpian.com/readme.md)
 2 | 没解密或数据关键字，尝试`JSON.parse` 定位代码 | [烯牛数据 xiniudata.com](xiniudata.com/readme.md)
 2 | 头部参数加密，查找`headers`或`api path`进行定位 | [DKLink oklink.com](oklink.com/readme.md)
-3 | Cookies 加密模式 | [雪球 https://xueqiu.com/today](xueqiu.com/readme.md)
+3 | Cookies 加密模式 | [雪球 xueqiu.com/today](xueqiu.com/readme.md)
+
+
+## 待爬列表 
+
+site | url | note 
+---- | --- | ---
+娱乐指数 | https://www.chinaindex.net/ranklist/5 | 电影类排名站点  
+行行查 | https://www.hanghangcha.com/products-local | 公司信息类 
+
 
 
 
@@ -30,7 +39,7 @@ curl 脚本转换工具 | [https://curlconverter.com/python/](https://curlconver
 
 ## Q&A
 
-**Q：** Python requests库处理SSL错误的方法
+### **Q：** Python requests库处理SSL错误的方法
 
 
 忽略证书警告信息，并在请求是增加 verify=False方法不验证证书
