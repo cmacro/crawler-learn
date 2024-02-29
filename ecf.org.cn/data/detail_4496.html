@@ -1,0 +1,892 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	华东进出口商品交易会
+</title><meta http-equiv="powered-by" content="FineUI v4.2.3 - 基于 ExtJS 的开源 ASP.NET 控件库 - http://fineui.com/" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link href="/extjs/res/ext-theme-neptune/all.css?v4.2.3" rel="stylesheet" type="text/css"/>
+<link href="../css/global.css" rel="stylesheet" type="text/css" /><link href="../css/css.css" rel="stylesheet" type="text/css" /><link href="../css/css_w.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <link href="../css/reg.css" rel="stylesheet" type="text/css" /><link href="../head2/css/base.css" rel="stylesheet" /><link href="../head2/css/index.css" rel="stylesheet" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /><meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" /></head>
+<body>
+<form name="aspnetForm" method="post" action="s.aspx?id=4496" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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54Gv6ZKl5YyZ6ZO+5omL55S1562SRVN1cGVyIE1pbmkgUG9ydGFibGUgQ2FtcGluZyBMYW1wIDEgTEVEIENPQiBsaWdodCBLZXkgY2hhaW4gRmxhc2hsaWdodGQCEQ9kFgJmDxUEBjMwNDE5NyQ2RjJGNTlDNy0xQjY5LTQxQ0YtQTE1MC02Nzc1MjVFOEVBRjI46LaF6L+35L2g5L6/5pC65byP6YeO6JCl54GvIExFRCBDT0Lnga/pkqXljJnpk77miYvnlLXnrZJFU3VwZXIgTWluaSBQb3J0YWJsZSBDYW1waW5nIExhbXAgMSBMRUQgQ09CIGxpZ2h0IEtleSBjaGFpbiBGbGFzaGxpZ2h0ZAISD2QWAmYPFQQGMzA0MTk4JEYyMTA3NzNCLTgxMTItNEM4MC04MTVELTRCNjhBMEU5M0IzNzjotoXov7fkvaDkvr/mkLrlvI/ph47okKXnga8gTEVEIENPQueBr+mSpeWMmemTvuaJi+eUteetkkVTdXBlciBNaW5pIFBvcnRhYmxlIENhbXBpbmcgTGFtcCAxIExFRCBDT0IgbGlnaHQgS2V5IGNoYWluIEZsYXNobGlnaHRkAhMPZBYCZg8VBAYzMDQxOTkkRjdBNzE1QjAtRUFBNS00M0Q3LTlDOUEtOTE3NDlGODJDQjU5HOWupOWkluW6lOaApUNvYiBMZWTlt6XkvZznga8nT3V0ZG9vciBFbWVyZ2VuY3kgQ29iIExlZCBXb3JrIFpvbmUgbGVkZAIFDw8WAh4HRW5hYmxlZGhkZAIHDw8WAh8GBQUxIC8gNmRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYIBR9jdGwwMCRDb250ZW50UGxhY2VIb2xkZXIyJGN0bDAxBSVjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIyJGN0bDAxJGN0bDAwBStjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIyJGN0bDAxJGN0bDAwJGN0bDAwBSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIyJGN0bDAxJFRhYlN0cmlwMgUuY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMiRjdGwwMSRUYWJTdHJpcDIkdGFiMgUkY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMiRjdGwwMSR0YWJzBSljdGwwMCRDb250ZW50UGxhY2VIb2xkZXIyJGN0bDAxJHRhYnMkdGFiMQUvY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMiRjdGwwMSR0YWJzJHRhYjEkY3RsMDDi6gpr8TrmtHu9pmq3MNUSrudXcQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8EA5B7FC" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgKzxeHtDALqmtHJBgL5keBlArCnqo0EAv2R7OUPApGM4cgEzCt1flB5cEEIlWXgkBEokjDOa2Q=" />
+</div>
+    
+<link href="http://www.ecf.org.cn/public/templates/default/fonts/iconfont.css" rel="stylesheet">
+
+<div class="top clearfix m_hide ">
+                    <a href="/" class="logo" alt="East China Fair" title="East China Fair"></a>
+                    <div class="info infoen" style="display:flex;flex-direction:column;justify-content:center;">
+                        <!-- <div class="info " style="display:flex;flex-direction:column;justify-content:center;"> -->
+                                                <span id="ctl00_HeadNewCn_ecfName">第32届华交会</span>
+                        <span id="ctl00_HeadNewCn_ecfTime">2024年3月1日-4日</span>
+                                                <p>中国华东进出口商品交易会唯一官方网站</p>
+                    </div>
+                    <div class="topright">
+                        <div class="toggleyuyan__">
+                            <ul>
+                            </ul>
+                        </div>
+                        <!-- <div class="login">
+                            <a href="http://www.ecf.org.cn/user?action=login&type=0">EAST_69</a>
+                            丨
+                            <a href="http://www.ecf.org.cn/user?action=login&type=4">EAST_68</a>
+                        </div> -->
+                        <div class="search searchBox" style="display:none">
+                        </div>
+                    </div>
+                </div>
+<div class="nav m_hide ">
+                    <nav>
+                        <ul class="menu  menu-index" id="pcMenu">
+                            <li><a href="http://www.ecf.org.cn/">首页</a></li>
+                                                        <li>
+                                <a href="javascript:;">关于华交会</a>
+                                <div class="active">
+                                    <a href="http://www.ecf.org.cn/about?id=54">概况</a>
+                                    <a href="http://www.ecf.org.cn/about?id=55">组织架构</a>
+                                    <a href="http://www.ecf.org.cn/about?id=71">历届回顾</a>
+                                    <a href="http://www.ecf.org.cn/about?id=57">版权声明</a>
+                                    <a href="http://www.ecf.org.cn/about?id=58">联系我们</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:;">参展商</a>
+                                <div class="secmenu exhibitormenu">
+                                    <div class="secmenulist">
+                                       <!--  <a href="">展商、展品查询</a> -->
+                                        <a href="http://www.ecf.org.cn/navigation?type=1">现场服务</a>
+                                        <a href="http://www.ecf.org.cn/download?cat=1&type=3">下载中心</a>
+                                       <!--  <a href="">联系客服</a> -->
+                                        <!-- <a href="http://www.ecf.org.cn/download?id=83">FAQ</a> -->
+                                        <div class="secmenu-btn secmenu-btn"><a href="http://www.ecf.org.cn/user?action=login&type=1" class="secmenu-btn-link">注册</a><a href="http://www.ecf.org.cn/user?action=login&type=5" class="secmenu-btn-link">登录</a><span></span></div>
+                                    </div>
+                                    <div class="thirdmenu w1">
+                                        <h3>出口展区</h3>
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=1">如何参展</a>
+                                        <!-- <a href="http://www.ecf.org.cn/exhibitor?id=5">EAST_52</a> -->
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=8">参展商服务</a>
+                                        <a href="http://www.ecf.org.cn/exhibitor?id=6">联系交易团</a>
+                                    </div>
+                                    <div class="thirdmenu w2">
+                                        <h3>进口展区</h3>
+                                        <a href="http://www.ecf.org.cn/exhibitor?id=31">进口展区概况</a>
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=16">如何参展</a>
+                                        <!-- <a href="http://www.ecf.org.cn/exhibitor?id=20">EAST_46</a> -->
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=23">参展商服务</a>
+                                        <a href="http://www.ecf.org.cn/exhibitor?id=21">联系我们</a>
+                                    </div>
+                                    <div class="thirdmenu w3">
+                                        <h3>跨境电商展区</h3>
+                                        <a href="http://www.ecf.org.cn/exhibitor?id=32">跨境电商展区概览</a>
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=33">如何参展</a>
+                                        <!-- <a href="http://www.ecf.org.cn/exhibitor?id=37">EAST_40</a> -->
+                                        <a class="nolists" href="http://www.ecf.org.cn/exhibitor?id=40">参展商服务</a>
+                                        <a href="http://www.ecf.org.cn/exhibitor?id=38">联系我们</a>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:;">采购商</a>
+                                <!-- <div class="active">
+                                    <a href="http://www.ecf.org.cn/purchaser?id=49">EAST_36</a>
+                                    <a href="http://www.ecf.org.cn/purchaser?id=50">EAST_35</a>
+                                    <a href="http://www.ecf.org.cn/purchaser?nav=1">EAST_34</a>
+                                    <a href="http://www.ecf.org.cn/download?cat=2&type=2">EAST_33</a>
+                                    <div class="plogin">
+                                        <a href="http://www.ecf.org.cn/user?action=login&type=6">EAST_32</a> /
+                                        <a href="http://www.ecf.org.cn/user?action=login&type=3">EAST_31</a>
+                                    </div>
+                                    <a href="http://www.ecf.org.cn/purchaser?id=48">EAST_30</a>
+                                    <a href="http://www.ecf.org.cn/purchaser?id=53">EAST_29</a>
+                                    <a href="http://www.ecf.org.cn/download?id=83">FAQ</a>
+                                </div> -->
+                                <div class="secmenu exhibitormenu purchasermenu">
+                                    <div class="secmenulist">
+                                        <a href="http://www.ecf.org.cn/navigation?type=2">现场服务</a>
+                                        <a href="http://www.ecf.org.cn/download?cat=2&type=2">下载中心</a>
+                                        <div class="secmenu-btn secmenu-btn"><a href="http://www.ecf.org.cn/user?action=login&type=3" class="secmenu-btn-link">注册</a><a href="http://www.ecf.org.cn/user?action=login&type=6" class="secmenu-btn-link">登录</a><span></span></div>
+                                    </div>
+                                    <div class="thirdmenu w1">
+                                        <h3>采购商</h3>
+                                        <a class="nolists" href="http://www.ecf.org.cn/purchaser?id=49">展品类别</a>
+                                        <a href="http://www.ecf.org.cn/purchaser?id=50">办理证件</a>
+                                        <a href="http://user.ecf.org.cn/QueryCn.aspx">展商和展品</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="javascript:;">重要活动</a>
+                                <div class="active">
+                                    <a href="http://www.ecf.org.cn/activities?act=memory_special&id=99">30周年专区</a>
+                                    <a href="http://www.ecf.org.cn/activities?id=74">当届活动</a>
+                                    <a href="http://www.ecf.org.cn/activities?id=75">活动回顾</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="http://www.ecf.org.cn/user?action=getexpo">线上华交会</a>
+                                                            </li>
+                            <li>
+                                <a href="javascript:;">新闻</a>
+                                <div class="active">
+                                    <a href="http://www.ecf.org.cn/articles?cat=1">华交会通讯</a>
+                                    <a href="http://www.ecf.org.cn/articles?cat=15">行业动态</a>
+                                    <a href="http://www.ecf.org.cn/articles?cat=2">交易团公告</a>
+                                    <a href="http://www.ecf.org.cn/articles?cat=5">媒体拙劣</a>
+                                    <a href="http://www.ecf.org.cn/articles?cat=4">现场图片</a>
+                                    <a href="http://www.ecf.org.cn/articles?cat=3">视频点播</a>
+                                    <!-- <a href="http://www.ecf.org.cn/articles?cat=6">EAST_10</a> -->
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:;">服务</a>
+                                <div class="active">
+                                    <a href="http://www.ecf.org.cn/service?id=59">展馆介绍</a>
+                                    <a href="http://www.ecf.org.cn/service?id=60">交通指南</a>
+                                    <a href="http://www.ecf.org.cn/service?id=81">搭建指南</a>
+                                    <a href="http://www.ecf.org.cn/service?id=61">运输指南</a>
+                                    <a href="http://www.ecf.org.cn/service?id=62">广告服务</a>
+                                    <a href="http://www.ecf.org.cn/service?id=63">现场指南</a>
+                                    <a href="http://www.ecf.org.cn/service?id=64">酒店信息</a>
+                                    <a href="http://www.ecf.org.cn/download?cat=1&type=1">下载中心</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+    <div class="contengbg">
+        <div class="m2con_nav">
+            
+    <h2><a href="https://www.ecf.org.cn/">Home</a>&nbsp;>&nbsp;<a href="#" onclick="javascript:history.back(-1)"> Go back</a></h2>
+    <style>
+        .btnpage {
+            border-radius:3px;
+            border:1px solid #0086D1;
+            text-align:center;
+            cursor:pointer;
+            padding:4px 4px 4px 4px;
+        }
+        .sfont {
+            font-size: 16px;
+        }
+        h4.sales {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor:pointer;
+        }
+    </style>
+
+        </div>
+        <div class="m2con">            
+            <div class="m2conF" style="min-height:500px;">
+                <div class="m2Edit">
+                    <div id="wrap" class="wrap">
+                        <div id="content_warp">
+                            
+    <div id='loading-mask'></div><div id='loading'><div class='loading-indicator'><img align='absmiddle' src='/extjs/res/images/loading_32.gif'/></div></div>
+    <div style="width:1030px; min-height:500px; margin:0 auto 0 auto; border:0px solid black; " >
+        
+        <div id="ctl00_ContentPlaceHolder2_ctl01_wrapper"><div id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Content" >
+                            <div style="padding-left:10px; " >
+                                 <div style="float:left; width: 180px; height:100%; margin:10px 10px 10px 10px;" >
+                                     <img src="../download.ashx?empty=1&down=0&guid=004ac604-e397-419c-a218-bc804d9eb97c" id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_faceimg" style="width:150px; height:150px; " onclick="window.open(this.src,'_blank');" />
+                                 </div>
+                                 <div style="float:left; padding-top:10px; " >
+                                    <div><span id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Label1" class="sfont">浙江新景进出口有限公司</span></div>
+                                    <div><span id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Label2" class="sfont">ZHEJIANG NEW VISION IMPORT  EXPORT CO., LTD.</span></div>
+                                    <div><span id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Label3">宁波市惊驾路555号泰富广场A座14楼</span></div>
+                                    <div><span id="ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Label4">ROOM1412,PACIFIC PLAZA, NINGBO ,CHINA</span></div>
+                                 </div>
+                            </div>
+                        </div><div id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_Content" >
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304180' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=E32F6FA9-0A98-48A2-9DF7-CA0BD061112C' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">一次性PP餐盒</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">PP Disposable Food Container</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304181' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=2F4187AD-4095-44EB-8B9A-77A015123CEA' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">液体唇彩</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Liquid lip gloss</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304182' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=1A45415B-87CA-47C9-9347-397754ED7CDF' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">睫毛膏</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Volumizing Mascara</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304183' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=B86AB82B-5231-4115-A8BB-A671D5A1603B' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">假睫毛</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Faux lashes</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304184' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=CF0959B3-F334-4FEB-821B-3B74B3E780C8' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">指甲贴</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">nail stickers</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304185' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=E1167E92-1761-4390-AFC4-9FC152C67585' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">眉笔</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Brow pencil</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304186' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=B89ECD75-5CAE-442D-B293-79BB5A3E66D2' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">指甲锉</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Nail file</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304187' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=A30C2D87-715E-4D52-BE78-D964EC883731' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS塑料便携式工作灯，带磁铁和挂钩</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS plastic Portable worklight with magnetic and hook</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304188' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=93C2E2B4-A4FC-46EB-957F-8E86983D1FC5' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS塑料便携式工作灯，带磁铁和挂钩</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS plastic Portable worklight with magnetic and hook</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304189' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=7F0D016F-521E-457D-BD0A-09FE8F8AA0AB' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS塑料迷你便携式工作灯，带磁铁和挂钩</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Small grid minitype portable 3W magnetic cob led worklight with hook</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304190' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=04364042-7C98-41F8-8378-805603FA315F' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS 感应式 塑料迷你便携式工作灯</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">mini 3W COB LED ABS plastic sensor worklight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304191' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=5CFC3136-8465-45EC-927C-79BCFF86F5E0' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">感应式LED 头灯户外便携式工作灯</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">sensor led headlamp outdoor headlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304192' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=44CCB624-4E79-4EDE-BC39-A1ECD1491CE4' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">感应式LED 头灯户外便携式工作灯</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">sensor led headlamp outdoor headlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304193' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=D1B5C78D-114C-4781-9BDC-2DD37B542C00' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">USB可充电感应式迷你新款LED COB工作灯</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">USB Rechargeable sensor mini New design LED COB worklight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304194' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=07042229-D215-45C8-BF34-7D8FBAAA0B86' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS塑料便携式工作灯，带磁铁和挂钩</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">3W COB LED ABS plastic Portable worklight with magnetic and hook</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304195' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=8974ECDF-786B-4528-B6D6-3CD27DE34D1C' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">超迷你便携式野营灯 LED COB灯钥匙链手电筒</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Super Mini Portable Camping Lamp 1 LED COB light Key chain Flashlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304196' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=DDF6E687-848A-4C27-9301-055D087C866B' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">超迷你便携式野营灯 LED COB灯钥匙链手电筒</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Super Mini Portable Camping Lamp 1 LED COB light Key chain Flashlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304197' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=6F2F59C7-1B69-41CF-A150-677525E8EAF2' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">超迷你便携式野营灯 LED COB灯钥匙链手电筒</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Super Mini Portable Camping Lamp 1 LED COB light Key chain Flashlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304198' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=F210773B-8112-4C80-815D-4B68A0E93B37' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">超迷你便携式野营灯 LED COB灯钥匙链手电筒</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Super Mini Portable Camping Lamp 1 LED COB light Key chain Flashlight</h4>
+	                            </a>
+                            </div>                
+                            
+                            <div class="item  " role="listitem" aria-posinset="31" aria-setsize="50" 
+                                style="width: 180px; height: 240px; border-bottom:1px solid gray; border-radius: 1px; float: left; padding: 7px 7px 0px; margin: 0px 0px 2px 7px; color: rgb(108, 108, 108); position: relative; font-family: tahoma, arial, &quot;Hiragino Sans GB&quot;, 宋体, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+	                            <a href='p.aspx?id=304199' class="hotsale-item" style="text-decoration: none; cursor: pointer; color: rgb(60, 60, 60);">
+		                            <div class="img-wrapper" style="background: rgba(0, 0, 0, 0.2); overflow: hidden; width: 180px; height: 180px; border-radius: 3px;">
+			                            <img src='../download.ashx?empty=1&guid=F7A715B0-EAA5-43D7-9C9A-91749F82CB59' aria-labelledby="hotsale-item-tl-31" style="border: 0px; background: rgb(255, 255, 255); opacity: 0.9; transition: opacity 0.2s ease 0s; display: block; width: 180px; height: 180px;">
+		                            </div>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">室外应急Cob Led工作灯</h4>
+		                            <h4 class="sales" style="margin: 9px 0px 0px; padding: 0px; font-size: 14px; line-height: 15px; color: rgb(17, 17, 17); font-weight: normal; transition: color 0.3s ease 0s; overflow: hidden;">Outdoor Emergency Cob Led Work Zone led</h4>
+	                            </a>
+                            </div>                
+                            
+                                                  
+                            <div style="width:100%; text-align:center; clear:both; padding-top:10px;">
+                            <input type="submit" name="ctl00$ContentPlaceHolder2$ctl01$tabs$tab1$ctl00$btnStart" value="首  页" id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_btnStart" class="btnpage" />
+                            <input type="submit" name="ctl00$ContentPlaceHolder2$ctl01$tabs$tab1$ctl00$btnLast" value="上一页" id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_btnLast" disabled="disabled" class="btnpage" />
+                            <input name="ctl00$ContentPlaceHolder2$ctl01$tabs$tab1$ctl00$pageinfo" type="text" value="1 / 6" readonly="readonly" id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_pageinfo" class="btnpage" style="width:80px;" />
+                            <input type="submit" name="ctl00$ContentPlaceHolder2$ctl01$tabs$tab1$ctl00$btnNext" value="下一页" id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_btnNext" class="btnpage" />
+                            <input type="submit" name="ctl00$ContentPlaceHolder2$ctl01$tabs$tab1$ctl00$btnEnd" value="尾  页" id="ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_btnEnd" class="btnpage" />
+                            </div>
+                        </div></div>
+    </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script src="../head2/js/banben.js"></script>
+<style>
+    .lxh_float{
+        width: 70px;
+        height: 520px;
+        position: fixed;
+        right: 0;
+        top: 140px;
+        z-index: 999;
+        background: #0086D1;
+    }
+    .lxh_float .lxh_float_li p {
+        /* width: 55px; */
+        color: #FFFFFF;
+        font-size: 14px;
+        margin-top: 10px;
+        word-break: normal;
+        width:100%;
+        /* padding: 0px 5px; */
+    }
+    .lxh_float .lxh_float_li { 
+        height: 130px;
+        text-align: center;
+        box-sizing: border-box;
+        /* display: -webkit-flex; */
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* filter:alpha(opacity=80); */
+    }
+    /* #lxh_float_li2:hover{
+        background: #0161B7;
+    }
+    #lxh_float_li3:hover{
+        background: #0161B7;
+    }
+    #lxh_float_li4:hover{
+        background: #0161B7;
+    } */
+    .lxh_float .lxh_float_li div{
+        width:38px;
+        height:38px;
+    }
+    .lxh_float .lxh_float_li div img{
+        width:100%;
+        height:100%;
+    }
+    .lxh_float .lxh_lxwm,.lxh_gfwx,.lxh_cgsdl,.lxh_czsdl{
+        width: 212px;
+        height: 130px;
+        position: absolute;
+        right: 68px;
+        background: #0161B7;
+    }
+    /* .lxh_lxwm{
+        top: 130px;
+        z-index: 999;
+        display: none;
+    } */
+    .lxh_float .lxh_czsdl{
+        top: 130px;
+        z-index: 999;
+        display: none;
+    }
+    .lxh_float .lxh_cgsdl{
+        top: 260px;
+        z-index: 999;
+        display: none;
+    }
+    .lxh_float .lxh_gfwx{
+        top: 390px;
+        z-index: 999;
+        display: none;
+    }
+    .lxh_float .lxh_lxwm_body{
+        width: 212px;
+        height:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .lxh_float .lxh_lxwm_ul {
+        width: 212px;
+        margin-left:18px;
+    }
+    .lxh_float .lxh_lxwm_li{
+        width: 194px;
+        display: flex;
+        align-items:center;
+    }
+    .lxh_float  .lxh_lxwm_li:not(:first-child){
+         margin-top:5px;
+     }
+    /* .lxh_lxwm_ul li span{
+        display: inline-block;
+        width: 170px;
+        color: #ffffff;
+        font-size: 12px;
+    } */
+    .lxh_float .lxh_lxwm_li div{
+        margin-right: 10px;
+    }
+    .lxh_float .lxh_lxwm_li div img{
+        min-height: 14px;
+        min-width: 14px;
+    }
+    .lxh_float .lxh_gfwx_div {
+        color: #FFFFFF;
+        margin-top: 15px;
+        font-size:12px;
+        text-align: center
+    }
+    .lxh_float .lxh_gfwx_ul{
+        display: flex;
+        margin-top: 22px;
+    }
+    .lxh_float .lxh_gfwx_li{
+    }
+    .lxh_float .lxh_gfwx_li p{
+        margin-top: 15px;
+        font-size: 12px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .lxh_float .lxh_gfwx_li div{
+        width: 52px;
+        height: 52px;
+    }
+    .lxh_float .lxh_gfwx_li div img{
+        width: 100%;
+        height: 100%;
+    }
+    .lxh_float .lxh_video{
+        width: 100%;
+        height: 239px;
+        background: rgba(0,0,0,0.5);
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .lxh_float .lxh_video_div{
+        width: 55px;
+        height: 55px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .lxh_float .lxh_video_div img{
+        width: 100%;
+        height: 100%;
+    }
+    .lxh_float .lxh_dl_ul{
+        width: 212px;
+        padding: 10px;
+        box-sizing: border-box;
+   }
+   .lxh_float .lxh_dl_ul li{
+        margin-top: 10px;
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+   }
+   .lxh_float .lxh_dl_ul li a{
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+   }       
+   .lxh_float .loginRes{
+       /*width: 22px;
+       height: 22px;
+       display: inline-block;*/
+   } 
+   .lxh_float .loginRes>img{
+       width: 22px;
+       vertical-align: middle;
+       float:left;
+       margin-top:9px;
+       margin-left:44px;
+   }
+   .lxh_float .lxh_dl_ul li a:hover{
+       color: #0086D1;
+   }
+   .footer_bottom_right p{
+       word-wrap:break-word;
+   }
+</style>
+<div class="lxh_float">
+    <ul class="lxh_float_ul">
+        <a href="https://www.ecf.org.cn/user?action=getexpo">
+            <li class="lxh_float_li" style="cursor: pointer;">
+                <div><img src="../images/head2/XIANSHANGHUAJIAOHI.jpg" alt=""/></div>
+                <!-- <div><img src="./image/XIANSHANGHUAJIAOHI.png" alt=""></div> -->
+
+                <p style="cursor: pointer;">线上<br/>华交会</p>
+            </li>
+        </a>
+        <li class="lxh_float_li" id="lxh_float_li2" style="background: rgb(0, 134, 209);">
+            <div><img src="../images/head2/321.jpg" alt=""/></div>
+            <p>参展</br>商</p>
+        </li>
+        <li class="lxh_float_li" id="lxh_float_li4" style="background: rgb(0, 134, 209);">
+            <div><img src="../images/head2//123.jpg" alt=""/></div>
+            <!-- <div><img src="./image/LIANXIWM.png" alt=""></div> -->
+            <p>采购</br>商</p>
+        </li>
+        <li class="lxh_float_li" id="lxh_float_li3" style="background: rgb(0, 134, 209);">
+            <div><img src="../images/head2/WEIXING.jpg" alt=""/></div>
+            <!-- <div><img src="./image/WEIXING.png" alt=""></div> -->
+            <p>官方</br>微信</p>
+        </li>
+    </ul>
+    <div class="lxh_czsdl" id="lxh_czsdl_id" style="display: none;">
+        
+        <ul class="lxh_dl_ul">
+            
+            <li>
+                <div class="loginRes">
+                    <img src="../images/head2/p2.png">
+					&nbsp;&nbsp;&nbsp;<a href="http://test.ecf.org.cn/user?action=login&amp;type=5">参展商登录</a>
+                </div>
+            </li>
+            
+            <li>
+                <div class="loginRes">
+                    <img src="../images/head2/p1.png"/>
+					&nbsp;&nbsp;&nbsp;<a href="http://test.ecf.org.cn/user?action=login&type=1&error_type=register">参展商注册</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="lxh_cgsdl" id="lxh_cgsdl_id" style="display: none;">
+        
+        <ul class="lxh_dl_ul">
+            
+            <li>
+                <div class="loginRes">
+                    <img src="../images/head2/p4.png"/>
+					 &nbsp;&nbsp;&nbsp;<a href="http://test.ecf.org.cn/user?action=login&type=6">采购商登录</a>
+				</div>
+            </li>
+            
+            <li>
+                <div class="loginRes">
+                    <img src="../images/head2/p3.png"/>
+					&nbsp;&nbsp;&nbsp;<a href="http://test.ecf.org.cn/user?action=login&type=3&error_type=register">采购商注册</a>
+				</div>
+            </li>
+        </ul>
+    </div>
+    <!-- <div class="lxh_lxwm" id="lxh_lxwm_id">
+        <div class="lxh_lxwm_body">
+            <ul class="lxh_lxwm_ul">
+                <li class="lxh_lxwm_li">
+                    <div><img src="/public/templates/default/images/phone.jpg" alt=""></div>
+                    <span>0086-21-63539968</span>
+                </li>
+                <li class="lxh_lxwm_li">
+                    <div><img src="/public/templates/default/images/email.jpg" alt=""></div>
+                    <span>info@ecf.org.cn</span>
+                </li>
+                <li class="lxh_lxwm_li">
+                    <div><img src="/public/templates/default/images/address.jpg" alt=""></div>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <div class="lxh_gfwx" id="lxh_gfwx_id" style="display: none;">
+        <ul class="lxh_gfwx_ul">
+            <li class="lxh_gfwx_li" style="margin-left: 43px;margin-right: 32px;">
+                <div>
+                    <img src="../images/head2/fwhewm.jpg" alt="East China Fair" title="East China Fair"/>
+                </div>
+                <p>服务号</p>
+            </li>
+            <li class="lxh_gfwx_li">
+                <div>
+                    <img src="../images/head2/dyhewm.jpg" alt="East China Fair" title="East China Fair"/>
+                </div>
+                <p style="margin-left:-9px;margin-top:15px">公众号</p>
+            </li>
+        </ul>
+            </div>
+</div>
+
+    
+<div class="footer-log">
+        <ul class="footer-log-list">
+            <!-- <li class="footer-log-item">
+                <a href="https://made-in-china.com/ " target="_blank"><img src="/public/templates/default/images/flogo1.png" /></a>
+            </li>
+                        <li class="footer-log-item">
+                <a href="http://www.texindex.com.cn" target="_blank"><img src="/public/templates/default/images/flogo2.png" /></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="http://www.giftshow.cn" target="_blank"><img src="/public/templates/default/images/flogo5.png" /></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="http://www.sipremium.com/chn" target="_blank"><img src="/public/templates/default/images/flogo3.png" /></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="https://www.tradeaider.com" target="_blank"><img src="/public/templates/default/images/flogo4.png" /></a>
+            </li>
+             -->
+            <li class="footer-log-item">
+                <a href="javascript:;"><img src="../images/head2/flogo1.png"></a>
+            </li>
+                        <li class="footer-log-item">
+                <a href="javascript:;"><img src="../images/head2/flogo2.png"></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="javascript:;"><img src="../images/head2/flogo5.png"></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="javascript:;"><img src="../images/head2/flogo3.png"></a>
+            </li>
+            <li class="footer-log-item">
+                <a href="javascript:;"><img src="../images/head2/flogo4.png"></a>
+            </li>
+                    </ul>
+    </div>
+<footer class="  ">    
+                    <div class="footer" style="background-image:none;">
+                        <div class="weblist">
+                            <a href="http://ecf.org.cn/about?id=54">关于华交会</a>|
+                            <a href="http://ecf.org.cn/about?id=57">版权声明</a>|
+                            <a href="http://ecf.org.cn/web_map">网站地图</a>|
+                          <!--   <a href="javascript:;">友情链接</a>| -->
+                            <!-- <a href="/download?id=83">常见问题</a>| -->
+                             <a href="http://ecf.org.cn/rule_class?id=86">隐私政策 </a>
+                        </div>
+                        <div class="webinfo clearfix">
+                            <div class="companylist company">
+                                <p class="title">支持单位</p>
+                                <ul>
+                                    <li><a>中华人民共和国商务部</a></li>
+                                </ul>
+                            </div>
+                            <div class="companylist">
+                                <p class="title">主办单位</p>
+                                <ul>
+                                    <li><a>上海市商务委</a></li>
+                                    <li><a>江苏省商务厅</a></li>
+                                    <li><a>浙江省商务厅</a></li>
+                                    <li><a>安徽省商务厅</a></li>
+                                    <li><a>福建省商务厅</a></li>
+                                    <li><a>江西省商务厅</a></li>
+                                    <li><a>山东省商务厅</a></li>
+                                    <li><a>南京市商务局</a></li>
+                                    <li><a>宁波市商务局</a></li>
+                                </ul>
+                            </div>
+                            <div class="companylist office">
+                                <p class="title">华交会理事会办公室</p>
+                                <ul>
+                                    <li><a>上海外经贸商务展览有限公司</a></li>
+                                    <li><a>上海华交会展经营服务有限公司</a></li>
+                                </ul>
+                            </div>
+                            <div class="companylist aboutus">
+                                <p class="title">联系我们</p>
+                                <p class="tel aboutinfo">0086-21-63539968</p>
+                                <p class="mail aboutinfo">info@ecf.org.cn </p>
+                                <p class="address aboutinfo">上海市天目西路511号锦程大厦20楼2006室</p>
+                            </div>
+                            <div class="shares">
+                                <div class="ewm">
+                                    <div class="ewminfo">
+                                        <img src="../images/head2/fwhewm.jpg" alt="East China Fair" title="East China Fair">
+                                                                                <p>华交会微信服务号</p>
+                                                                            </div>
+                                    <div class="ewminfo">
+                                        <img src="../images/head2/dyhewm.jpg" alt="East China Fair" title="East China Fair">
+                                                                                <p>华交会微信订阅号</p>
+                                                                            </div>
+                                </div>
+                                                                <div class="sharelist">
+                                    <a href="https://www.facebook.com/East-China-Fair-214352752354769/" class="iconfont icon-Facebook fb"></a>
+                                    <a href="https://www.linkedin.com/company/15229109/" class="iconfont icon-in in"></a>
+                                    <a href="https://twitter.com/EastChinaFairEC" class="iconfont icon-twitter tw"></a>
+                                    <a href="https://www.youtube.com/channel/UCbVsPU5r6PRJxpP0-bzsigQ" class="ytb"></a>
+                                    <a href="https://www.instagram.com/east_china_fair/" class="itg"></a>
+                                    <a href="https://www.pinterest.com/eastchinafair/" class="iconfont icon-PinterestIcon pt"></a>
+                                    <a href="https://vk.com/eastchinafair" class="iconfont icon-vk vk"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            版权所有：中国华东进出口商品交易会<img src="../images/head2/logos.png?v=201981">
+                        </div>
+                        <div class="record"><span></span><a href="https://beian.miit.gov.cn" target="_blank">沪ICP备19014549号-1</a><i></i><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602002859" target="_blank">沪公网安备 31010602002859号</a></div>
+                    </div>
+                </footer>
+
+<script src="/extjs/ext-all.js?v4.2.3" type="text/javascript"></script>
+<script src="/extjs/ext-theme-neptune.js?v4.2.3" type="text/javascript"></script>
+<script src="/extjs/lang/zh_CN.js?v4.2.3" type="text/javascript"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+function fconfirm(a,b,c) {
+    return F.confirm({ok:c,messageIcon:'question',title:b,message:a});
+}
+function falert(a) {
+    window.F.alert({message:a,messageIcon:Ext.MessageBox.INFO});
+}if(!F&&!Ext){if(confirm('ERROR: extjs folder is lost, download it now?')){window.location.href='http://fineui.com/bbs/forum.php?mod=viewthread&tid=3218';}}F.load(function(){F.init({_version:'4.2.3'});F.f_pagemanager={name:'ctl00$ContentPlaceHolder2$ctl00'};var f5=Ext.create('Ext.panel.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00',contentEl:'ctl00_ContentPlaceHolder2_ctl01_ctl00_ctl00_Content',dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,title:''});var f1=Ext.create('Ext.panel.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_ctl00',items:[f5],dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,header:false});var f7_state={"Text":"国内"};var f7=Ext.create('Ext.form.field.Display',{f_state:f7_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label10',fieldLabel:'展商类型',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label10',value:'<span\>国内</span\>'});var f8_state={"Text":"民营企业"};var f8=Ext.create('Ext.form.field.Display',{f_state:f8_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label11',fieldLabel:'企业属性',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label11',value:'<span\>民营企业</span\>'});var f9_state={"Text":"贸易流通"};var f9=Ext.create('Ext.form.field.Display',{f_state:f9_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label12',fieldLabel:'企业类型',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label12',value:'<span\>贸易流通</span\>'});var f10_state={"Text":"2006 年"};var f10=Ext.create('Ext.form.field.Display',{f_state:f10_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label13',fieldLabel:'成立年份',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label13',value:'<span\>2006 年</span\>'});var f11_state={"Text":"http://newvision.grand-trade.com"};var f11=Ext.create('Ext.form.field.Display',{f_state:f11_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label14',fieldLabel:'网址 WebSite',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label14',value:'<span\>http://newvision.grand-trade.com</span\>'});var f12_state={"Text":"86-574-87723493-"};var f12=Ext.create('Ext.form.field.Display',{f_state:f12_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label5',fieldLabel:'联系电话 Telephone',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label5',value:'<span\>86-574-87723493-</span\>'});var f13_state={"Text":"ricky@grand-trade.com"};var f13=Ext.create('Ext.form.field.Display',{f_state:f13_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label6',fieldLabel:'电子邮箱 Business email',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label6',value:'<span\>ricky@grand-trade.com</span\>'});var f14_state={"Text":"宁波交易团 北仑分团"};var f14=Ext.create('Ext.form.field.Display',{f_state:f14_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label7',fieldLabel:'交易团',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label7',value:'<span\>宁波交易团 北仑分团</span\>'});var f15_state={"Text":"浙江省 宁波市"};var f15=Ext.create('Ext.form.field.Display',{f_state:f15_state,id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2_Label8',fieldLabel:'地区',labelWidth:200,name:'ctl00$ContentPlaceHolder2$ctl01$TabStrip2$tab2$Label8',value:'<span\>浙江省 宁波市</span\>'});var f6=Ext.create('Ext.panel.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2_tab2',width:1000,items:[f7,f8,f9,f10,f11,f12,f13,f14,f15],dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,title:'公司信息 Company Infomation',f_type:'tab'});var f2=Ext.create('Ext.tab.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_TabStrip2',style:'clear:both;',tabPosition:'top',dockedItems:[],bodyStyle:'',border:false,items:[f6],deferredRender:false,activeTab:0,listeners:{tabchange:function(tabPanel,tab){F.wnd.updateIFrameNode(tab);}}});var f17=Ext.create('Ext.panel.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00',contentEl:'ctl00_ContentPlaceHolder2_ctl01_tabs_tab1_ctl00_Content',dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,title:''});var f16=Ext.create('Ext.panel.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_tabs_tab1',width:1000,items:[f17],dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,title:'产品列表 Products',f_type:'tab'});var f3=Ext.create('Ext.tab.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01_tabs',style:'clear:both;',tabPosition:'top',dockedItems:[],bodyStyle:'',border:false,items:[f16],deferredRender:false,activeTab:0,listeners:{tabchange:function(tabPanel,tab){F.wnd.updateIFrameNode(tab);}}});var f4=Ext.create('Ext.form.Panel',{f_state:{},id:'ctl00_ContentPlaceHolder2_ctl01',renderTo:'ctl00_ContentPlaceHolder2_ctl01_wrapper',style:'clear:both;',layout:'anchor',items:[f1,f2,f3],dockedItems:[],bodyStyle:'',border:false,animCollapse:false,collapsible:false,collapsed:false,title:'',fieldDefaults:{labelWidth:200,labelAlign:'right'},listeners:{dirtychange:function(form,dirty){F.util.setPageStateChanged(dirty);}}});});//]]>
+</script>
+</form>
+</body>
+</html>
