@@ -17,7 +17,10 @@ site | url | note
 ---- | --- | ---
 娱乐指数 | https://www.chinaindex.net/ranklist/5 | 电影类排名站点  
 行行查 | https://www.hanghangcha.com/products-local | 公司信息类 
-
+艺恩 | https://www.endata.com.cn/BoxOffice/BO/Year/index.html | 票房查询 
+考古加 | https://www.kaogujia.com/darenSquare/darenList | 网红直播带货排名 
+点点数据 | https://app.diandian.com/rank/ios/1-4-0-75-2?time=1708961866000&device=1 | app排行榜 
+唯一艺术 | https://www.theone.art/market?type=copyright | art 
 
 
 
